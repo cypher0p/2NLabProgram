@@ -1,0 +1,11 @@
+Write a program to implement data structure operations on array. For this purpose we will create an interface
+myArray which will contain abstract methods corresponding to 5  data structure operation
+1.insert
+2.Delete
+3. Treverse
+4. search
+5. sort
+
+Create an implementation class called my array implementation This class will inherit myArray interface and
+contain two private fields integer array and in it index. This class will also contain a parameterised
+constructor which accepts 1 arguments that is the size of the array
