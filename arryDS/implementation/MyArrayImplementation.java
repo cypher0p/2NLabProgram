@@ -57,4 +57,16 @@ public class MyArrayImplementation
         }
         return response;
     }
+
+    @Override
+    public boolean search(int element) {
+        boolean response = false;
+        for (int i = 0; i < index; i++) {
+            if (arr[i] == element) {
+                response = true;
+                break;
+            }
+        }
+        return response;
+    }
 }
