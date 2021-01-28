@@ -36,4 +36,15 @@ public class MyArrayImplementation
         }
         System.out.println();
     }
+
+    @Override
+    public boolean insert(int element) {
+        boolean response = false;
+        if (index != arr.length) {
+            arr[index] = element;
+            index++;
+            response = true;
+        }
+        return response;
+    }
 }
