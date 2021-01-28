@@ -34,7 +34,7 @@ public class MyArrayImplementation
     public void traverse() {
         System.out.println("printing elements");
         for (int i = 0; i < index; i++) {
-            System.out.println(arr[i] + ", ");
+            System.out.print(arr[i] + ", ");
         }
         System.out.println();
     }
