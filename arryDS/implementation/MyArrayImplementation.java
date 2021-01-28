@@ -47,4 +47,14 @@ public class MyArrayImplementation
         }
         return response;
     }
+
+    @Override
+    public boolean delete() {
+        boolean response = false;
+        if (index != 0) {
+            index--;
+            response = true;
+        }
+        return response;
+    }
 }
